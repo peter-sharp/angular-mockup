@@ -1,0 +1,11 @@
+<form>
+  <input type="text" name="Username" ng-keyup="$event.keyCode == 13 && showOtherContent = true" class="box">
+  <div ng-show="showOtherContent" class="content">  This content is shown after the user presses Enter (keycode 13) on the input.</div>
+
+</form>
+<div ng-mouseover="showMouseOverContent = true" ng-mouseleave="showMouseOverContent = false" class="box">
+  <p ng-show="showMouseOverContent" class="content">
+    This text is shown only on mouse move
+  </p>
+</div>
+<a href=""ux-go="details">Go to details page</a>

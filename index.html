@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><Document>mockup</Document></title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="bower_components/jQuery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-ux/dist/angular-ux.js"></script>
+  <script src="js/app.js"></script>
+
+</head>
+<body ng-app="prototype" ng-ctrl="MainCtrl">
+    <ux-page name="home" home>
+      <ng-include src="'home.html'"></ng-include>
+    </ux-page>
+    <ux-page name="details">
+      <ng-include src="'detail.html'"></ng-include>
+    </ux-page>
+
+</body>
+</html>
